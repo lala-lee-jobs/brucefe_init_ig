@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/brucefe_init_ig/static/css/main.7ed667c8.css",
+    "main.js": "/brucefe_init_ig/static/js/main.1392d56a.js",
+    "index.html": "/brucefe_init_ig/index.html",
+    "main.7ed667c8.css.map": "/brucefe_init_ig/static/css/main.7ed667c8.css.map",
+    "main.1392d56a.js.map": "/brucefe_init_ig/static/js/main.1392d56a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ed667c8.css",
+    "static/js/main.1392d56a.js"
+  ]
+}
