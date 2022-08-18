@@ -13,6 +13,7 @@
     "@types/react-dom": "^17.0.11",
     "@types/styled-components": "^5.1.23",
     "autoprefixer": "^10.4.2",
+    "gh-pages": "^4.0.0",
     "json-server": "^0.17.0",
     "postcss": "^8.4.6",
     "prettier": "^2.5.1",
@@ -26,13 +27,16 @@
     "typescript": "^4.5.5",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://lala-lee-jobs.github.io/brucefe_init_ig",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier": "prettier -w ./src",
-    "server": "json-server --watch db.json --port 3004 -d 1500"
+    "server": "json-server --watch db.json --port 3004 -d 1500",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
