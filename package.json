@@ -27,7 +27,6 @@
     "typescript": "^4.5.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://lala-lee-jobs.github.io/brucefe_init_ig",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
